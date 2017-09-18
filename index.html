@@ -7,6 +7,7 @@
     <title>Kevin Faulhaber</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
     <div class="container">
@@ -18,8 +19,30 @@
             </div>
         </div>
 
-        <div class="skills">
-            <h3>Top Skills</h3>
+        <div id="menu">
+            <ul class="nav">
+                <li class="nav-item">
+                    <h3><a class="active nav-link" href="#skills">Skills</a></h3>
+                </li>
+                <li class="nav-item">
+                    <h3><a class="nav-link" href="#experience">Experience</a></h3>
+                </li>
+                <li class="nav-item">
+                    <h3><a class="nav-link" href="#about">About</a></h3>
+                </li>
+                <li class="nav-item">
+                    <h3><a class="nav-link" href="#timeline">Timeline</a></h3>
+                </li>
+            </ul>
+        </div>
+
+        <div id="skills">
+            <div class="col btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-secondary">Programming Languages</button>
+                <button type="button" class="btn btn-secondary">Libraries and Frameworks</button>
+                <button type="button" class="btn btn-secondary">ORM</button>
+                <button type="button" class="btn btn-secondary">Project Versioning</button>
+            </div>
             <div class="media">
                 <img width="100" class="d-flex mr-3" src="assets/img/js.png" alt="Generic placeholder image">
                 <div class="media-body">
@@ -132,6 +155,25 @@
                     Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
                 </div>
             </div>
+            <div class="media">
+                <img width="100" class="d-flex mr-3" src="assets/img/react.svg" alt="Generic placeholder image">
+                <div class="media-body">
+                    <h5 class="mt-0">React <span class="badge badge-light">Beginner</span></h5>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                </div>
+            </div>
+        </div>
+
+        <div id="experience">
+            Experience
+        </div>
+
+        <div id="about">
+            About
+        </div>
+
+        <div id="timeline">
+            Timeline
         </div>
 
         <div class="card">
@@ -148,5 +190,8 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+<script src="assets/js/main.js"></script>
+
 </body>
 </html>
